@@ -8,40 +8,41 @@
 
 Utilizando a equação horária do movimento para ambos os veículos temos:
 
-* O carro sai do x_0 = 0:
+* O carro sai do $x_0 = 0$:
 
-x_carro = x_0 + v_carro . t  => x_carro = 110 . t
-
-Portanto,
-
-** t =  x_carro/110 **
-
-* O caminhao sai do x_0 = 100 km e vai no sentido oposto
-
-x_caminhao = x_0 + v_caminhao . t  => x_caminhao = 100 - v_caminhao . t
+$x_{carro} = x_0 + v_{carro} . t  => x_{carro} = 110 . t$
 
 Portanto,
 
-** t =  (x_caminhao - 100)/ v_caminhao ** 
+$t = \frac{x_{carro}}{110}$
 
-* Porém, a velocidade media do caminhao altera devido as paradas de 10min (pedágios), ou seja, 0,17 h
+* O caminhao sai do $x_0 = 100 km$ e vai no sentido oposto
 
-t_viagem = (x_f-x_0)/v_caminhao = 100/80 = 1,25h
-t_viagem(com pedagios) = 1,42h
+$x_{caminhao} = x_0 + v_{caminhao} . t  => x_{caminhao} = 100 - v_{caminhao} . t$
 
-v_caminhao = (x_f-x_0)/t_viagem(com pedagios) = 100/1,42 = 70,6 km/h
+Portanto,
 
-* Como o ponto de encontro avontece no mesmo tempo e no mesmpo ponto da estrada, então,  x_carro = x_carro e t = t:
+$t =  \frac{(x_{caminhao} - 100)}{v_caminhao}$
 
-x_carro/110 = (x_caminhao - 100)/ -v_caminhao
+* Porém, a velocidade media do caminhao altera devido as paradas de 10min (pedágios), ou seja, $0,17 h$
 
-x/110 = (x - 100)/ -70,6 
+$t_{viagem} = \frac{x_f-x_0}{v_{caminhao}} = \frac{100}{80} = 1,25h$
 
--70,6x = 110x-11000
+$t_{viagem(com pedagios)} = 1,42h$
 
-11000 = 110x+70,6x
+$v_{caminhao} = \frac{x_f-x_0}{t_{viagem(com pedagios)}} = \frac{100}{1,42} = 70,6 km/h$
 
-x = 60,91km/h
+* Como o ponto de encontro avontece no mesmo tempo e no mesmpo ponto da estrada, então,  $x_{carro} = x_{caminhao} e t = t:
+
+$\frac{x_{carro}}{110} = \frac{x_{caminhao} - 100}{-v_{caminhao}}$
+
+$\frac{x}{110} = \frac{x - 100}{ -70,6} $
+
+$-70,6x = 110x-11000$
+
+$11000 = 110x+70,6x$
+
+$x = 60,91km/h$
 
  
 
