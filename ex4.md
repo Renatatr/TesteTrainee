@@ -14,7 +14,7 @@ x_carro = x_0 + v_carro . t  => x_carro = 110 . t
 
 Portanto,
 
-t =  x_carro/110
+** t =  x_carro/110 **
 
 * O caminhao sai do x_0 = 100 km e vai no sentido oposto
 
@@ -22,7 +22,7 @@ x_caminhao = x_0 + v_caminhao . t  => x_caminhao = 100 - v_caminhao . t
 
 Portanto,
 
-t =  (x_caminhao - 100)/ v_caminhao
+** t =  (x_caminhao - 100)/ v_caminhao ** 
 
 * Porém, a velocidade media do caminhao altera devido as paradas de 10min (pedágios), ou seja, 0,17 h
 
