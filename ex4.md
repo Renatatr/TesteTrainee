@@ -24,7 +24,7 @@ Portanto,
 
 t =  (x_caminhao - 100)/ v_caminhao
 
-* Porém, a velocidade media do caminhao altera devido as paradas de 10 (pedágios), ou seja, 0,17 h
+* Porém, a velocidade media do caminhao altera devido as paradas de 10min (pedágios), ou seja, 0,17 h
 
 t_viagem = (x_f-x_0)/v_caminhao = 100/80 = 1,25h
 t_viagem(com pedagios) = 1,42h
